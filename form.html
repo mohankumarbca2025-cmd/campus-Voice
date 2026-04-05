@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ASB campus complaint page</title>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo">Campus Voice</div>
+    <ul class="nav-links" style="list-style-type: none;">
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="About.html">About</a></li>
+      <li><a href="Categories.html">categories</a></li>
+      <li><a href="complaint.html">complaint</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="form.html"><button class="upperbtn">sumbit complaint</button></a>
+  </nav>
+    <div class="about">
+    <h5 style="color: orange; font-size: 15px;" >📝 SUBMIT</h5>
+    <h1 style="padding: 50px 1px; color: beige; font-size: 70px;" >File a <br>Complaint</h1>
+    <h3 style="color: rgb(37, 31, 31);">Fill out all required fields below. Your complaint will be reviewed by <br>administration within 24 hours.</h3>
+  </div><hr size="1px">
+<!--form section-->
+  <div class="container">
+  
+  <h2>PERSONAL INFORMATION </h2><hr size="1px" style="margin: 10px;">
+
+  <div class="row">
+    <div class="input-group">
+      <label>Full Name *</label><br>
+      <input type="text" placeholder="e.g. Rahul Sharma">
+    </div>
+
+    <div class="input-group">
+      <label>Student ID *</label><br>
+      <input type="text" placeholder="e.g. 2024CS0142">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="input-group">
+      <label>Email Address *</label><br>
+      <input type="email" placeholder="you@college.edu">
+    </div>
+
+    <div class="input-group">
+      <label>Phone Number</label><br>
+      <input type="text" placeholder="+91 98765 43210">
+    </div>
+  </div>
+
+  <h2>COMPLAINT DETAILS</h2><hr size="1px" style="margin: 10px;">  
+
+  <div class="row">
+    <div class="input-group">
+      <label>Complaint Category *</label>
+      <select style="height: 28px;
+    width: 250px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px  ;
+    padding: 3px;">
+        <option>— Select Category —</option>
+        <option>Electricity</option>
+        <option>Water</option>
+        <option>Internet</option>
+      </select>
+    </div>
+
+    <div class="input-group">
+      <label>Location (Block / Room) *</label>
+      <input type="text" placeholder="e.g. Block B, Room 204">
+    </div>
+  </div>
+
+  <div class="input-group" style="margin-left: 45px;"> 
+    <label>Complaint Description *</label><br>
+    <textarea placeholder="Describe the problem..." style="width: 600px; height: 140px; border-radius: 10px; margin-top: 10px; "></textarea>
+  </div>
+
+  <div>
+    <a href="#" style="text-decoration: none;">
+      <button type="submit" id="form-btn">
+        Submit Complaint
+      </button>
+    </a>
+  </div>
+
+</div>
+
+</body>
+</html>
